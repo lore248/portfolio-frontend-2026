@@ -1,0 +1,212 @@
+/* ESTILOS GENERALES */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+
+/* CABECERA */
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* NAVEGACIÓN */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* CONTENIDO */
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+/* SECCIONES */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+/* TÍTULOS */
+
+section h1 {
+    color: #4a90e2;
+}
+
+section h2 {
+    color: #333;
+}
+
+
+/* IMAGEN */
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+/* ARTÍCULO */
+
+article {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 4px solid #4a90e2;
+}
+
+
+/* LISTAS */
+
+ul,
+ol {
+    line-height: 1.8;
+}
+
+
+/* TABLA */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+
+/* ENLACES */
+
+aside {
+    text-align: center;
+}
+
+aside a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+
+/* FORMULARIO */
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/* ETIQUETAS */
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* CAMPOS DEL FORMULARIO */
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* TEXTAREA */
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+/* CHECKBOX */
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+/* BOTÓN */
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

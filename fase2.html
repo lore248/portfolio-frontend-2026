@@ -13,14 +13,15 @@
     <header>
         <h1>Lorena Menta Expósito</h1>
 
-        <p>Estoy aprendiendo HTML5</p>
+        <p>Estoy preparando mi perfil profesional como desarrolladora frontend.</p>
 
+        <p>Actualmente estoy aprendiendo HTML5 y otras tecnologías web.</p>
 
         <nav>
-            <a href="inicio"></a>
-            <a href="servicios"></a>
-            <a href="portfolio"></a>
-            <a href="contacto"></a>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
@@ -31,15 +32,106 @@
             <h1>sobre mi</h1>
             <p>Me llamo Lorena Menta Expósito, me gusta la música, las series y pelis, leer y estar con mis amigos.</p>
 
+            <img src="img/lore.jpg" alt="Imagen de perfil profesional">
+
             <article>
                 LA chica esta empezando a aprender HTML5 desde cero por primera vez
             </article>
+
+            <h2>Tecnologías</h2>
+
+            <ul>
+
+                <li>HTML5</li>
+
+                <li>CSS3</li>
+                                    
+                <li>JavaScript</li>
+
+            </ul>
+
+            <h2> Orden de aprendizaje</h2>
+
+            <ol>
+
+                <li>HTML5</li>
+
+                <li>CSS3</li>
+
+                <li>JavaScript</li>
+
+            </ol>
         </section>
 
-        <aside>
-            <a href="mira mi portfolio"></a>
-        </aside>
+        <section>
 
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+
+                <tr>
+                    <td>Ana</td>
+                    <td>25</td>
+                    <td>Madrid</td>
+                </tr>
+
+                <tr>
+                    <td>Luis</td>
+                    <td>30</td>
+                    <td>Barcelona</td>
+                </tr>
+            </table>
+
+            <aside>
+
+                <a href="https://developer.mozilla.org">Visitar MDN Web Docs</a>
+                
+                <p>Si pinchas en este enlace podras ver mi portfolio</p>
+                <a href="mira mi portfolio">Portfolio</a>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="audio/Calling Your Name piano 1.mp3" type="audio/mpeg">
+            </audio>
+
+            <h2>Video</h2>
+            <video controls width="600">
+                <source src="video/IMG_3246.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <form action="">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="pwd">Contraseña</label>
+            <input type="password" name="pwd" id="pwd">
+
+            <label for="studies"></label>
+            <select name="studies" id="studies">
+                <option value="junior">Junior</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <label> <input type="checkbox">Acepto los términos y condiciones</label>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+        
     </main>
 
     <footer>
