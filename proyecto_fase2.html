@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto_fase2.css">
+    <title>Proyecto final fase 2</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Portfolio Frontend</h1>
+
+        <p>Desarrolladora Frontend Junior</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p> 
+                Soy desarrolladora frontend y estoy preparando
+                mi perfil profesional para incorporarme al mercado
+                laboral del desarrollo web.
+            </p>
+
+            <p>
+                Mi objetivo es seguir mejorando mis conocimientos,
+                desarrollar proyectos reales y construir un portfolio
+                profesional.
+            </p>
+
+            <img src="img/lore.jpg" alt="Fotografía de perfil profesional">
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <p>Tecnologías y conocimientos</p>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+
+        <search id="proyectos">
+            <h2>Proyecto</h2>
+
+            <article>
+                <h3>Proyecto 1 - Portfolio</h3>
+
+                <p>
+                    Portfolio personal desarrollado para mostrar
+                    mis conocimientos y proyectos.
+                </p>
+
+                <a href="#">Ver proyecto</a>
+            </article>
+
+            <article>
+                <h3>Proyecto 2 - Web responsive</h3>
+
+                <p>Página web desarrollada utilizando HTML5.</p>
+
+                <a href="#">Ver proyecto</a>
+            </article>
+
+            <article>
+                <h3>Proyecto 3 - Aplicación web</h3>
+
+                <p>
+                    Proyecto destinado a practicar estructura,
+                    navegación y organización del contenido.
+                </p>
+
+                <a href="#">Ver proyecto</a>
+            </article>
+        </search>
+
+        <section>
+            <h2>Audio</h2>
+
+            <audio controls>
+                <source 
+                    src="audio/Calling Your Name piano 1.mp3"
+                    type="audio/mpeg"
+                >
+            </audio>
+        </section>
+
+        <section>
+            <h2>Video</h2>
+
+            <video controls width="600">
+                <source
+                    src="video/IMG_3246_h264.mp4"
+                    type="video/mp4"
+                >
+            </video>
+        </section>
+
+        <section>
+            <h2>Contenido externo</h2>
+
+            <iframe
+                src="https://www.youtube.com"
+                title="Contenido externo"
+                width="600"
+                height="400">
+            </iframe>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required> 
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" required></textarea>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="condiciones" required> 
+                        Acepto las condiciones
+                    </label>
+                </p>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+         <p>
+            © 2026 Mi Portfolio Frontend
+        </p>
+
+        <p>
+            Desarrolladora Frontend Junior
+        </p>
+    </footer>
+</body>
+</html>

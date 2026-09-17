@@ -1,0 +1,203 @@
+
+/* ================================
+   ESTILOS GENERALES
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* ================================
+   CABECERA
+================================ */
+
+header {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+
+/* ================================
+   NAVEGACIÓN
+================================ */
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d4ed8;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1e3a8a;
+}
+
+
+/* ================================
+   CONTENIDO PRINCIPAL
+================================ */
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+/* ================================
+   SECCIONES
+================================ */
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #1d4ed8;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+
+/* ================================
+   IMAGEN DE PERFIL
+================================ */
+
+#sobre_mi img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #dbeafe;
+    margin: 20px auto 0;
+}
+
+
+/* ================================
+   LISTA DE PROYECTOS
+================================ */
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#proyectos li {
+    background-color: #eff6ff;
+    color: #1e3a8a;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-left: 4px solid #2563eb;
+    border-radius: 6px;
+    transition: transform 0.3s ease,
+                background-color 0.3s ease;
+}
+
+#proyectos li:hover {
+    transform: translateX(5px);
+    background-color: #dbeafe;
+}
+
+
+/* ================================
+   PIE DE PÁGINA
+================================ */
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+/* ================================
+   DISEÑO RESPONSIVE
+================================ */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    #sobre_mi img {
+        width: 150px;
+        height: 150px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+}
