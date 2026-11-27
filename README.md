@@ -1,5 +1,11 @@
 # portfolio-frontend-2026
 
+## 👩‍💻 Autora
+
+**Lorena Menta**
+
+### Desarrolladora Frontend en formación.
+
 ## 📌 Descripción
 
 Portfolio profesional desarrollado durante mi búsqueda de empleo como desarrolladora Frontend, con el objetivo de reforzar y aplicar los conocimientos adquiridos en los ciclos formativos de DAM y DAW, desarrollar proyectos propios y continuar aprendiendo nuevas tecnologías como React.
@@ -51,9 +57,3 @@ Portfolio profesional desarrollado durante mi búsqueda de empleo como desarroll
 🟡 En desarrollo.
 
 Este proyecto continuará evolucionando a medida que avance en mi formación como desarrolladora Frontend.
-
-## 👩‍💻 Autora
-
-**Lorena Menta**
-
-### Desarrolladora Frontend en formación.
