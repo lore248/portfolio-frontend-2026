@@ -1,10 +1,10 @@
 # portfolio-frontend-2026
 
+<<<<<<< HEAD
+
 ## 📌 Descripción
 
-Portfolio personal desarrollado durante mi formación como desarrolladora Frontend.
-
-Este proyecto forma parte de mi roadmap de aprendizaje y tiene como objetivo reunir mis conocimientos, proyectos y evolución en desarrollo web.
+Portfolio profesional desarrollado durante mi búsqueda de empleo como desarrolladora Frontend, con el objetivo de reforzar y aplicar los conocimientos adquiridos en los ciclos formativos de DAM y DAW, desarrollar proyectos propios y continuar aprendiendo nuevas tecnologías como React.
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -58,4 +58,8 @@ Este proyecto continuará evolucionando a medida que avance en mi formación com
 
 **Lorena Menta**
 
-Desarrolladora Frontend en formación.
+# Desarrolladora Frontend en formación.
+
+Portfolio profesional desarrollado durante mi búsqueda de empleo como desarrolladora Frontend, con el objetivo de reforzar y aplicar los conocimientos adquiridos en los ciclos formativos de DAM y DAW, desarrollar proyectos propios y continuar aprendiendo nuevas tecnologías como React.
+
+> > > > > > > 954bb1872f4d09b8e16d795a57140bda03905f2e
